@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Gothic Lockpicker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gothic Lockpicker</h1>
+  <p>Sections: <input id="n" type="number" min="1" max="10" value="6" oninput="build()"></p>
+  <div id="states"></div>
+  <div id="matrix"></div>
+  <p><button onclick="solve()">Solve</button></p>
+  <pre id="out"></pre>
+  <script src="script.js"></script>
+</body>
+</html>
